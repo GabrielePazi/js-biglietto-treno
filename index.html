@@ -12,8 +12,53 @@
 </head>
 <body>
 
-  <div>Il prezzo del tuo biglietto è: <span id="ticketPrice"></span></div>
+  <!-- <h1> Il prezzo del tuo bigliett è : <span id="ticketPrice"></span></h1> -->
   
+  <div class="container-fluid">
+    <div class="row justify-content-center">
+      <div class="col-6">
+        <table class="table rounded">
+          <thead>
+            <tr>
+              <th scope="col">Dati</th>
+              <th scope="col">Valori</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Nome</td>
+              <td>Mario</td>
+            </tr>
+            <tr>
+              <td>Cognome</td>
+              <td>Rossi</td>
+            </tr>
+            <tr>
+              <td>Età</td>
+              <td id="età"></td>
+            </tr>
+            <tr>
+              <td>Distanza</td>
+              <td id="distanza"></td>
+            </tr>
+            <tr>
+              <td>Totale</td>
+              <td id="prezzo"></td>
+            </tr>
+            <tr>
+              <td>Sconto applicato</td>
+              <td id="sconto"></td>
+            </tr>
+            <tr>
+              <td>Prezzo Finale</td>
+              <td id="ticketPrice"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
   <script src="./js/main.js"></script>
 </body>
 </html>
